@@ -37,6 +37,10 @@ header {
   position: fixed;
 }
 
+.header_nav{
+ width: auto;
+}
+
 .header_nav-logo {
   width: 70%;
   margin: 14%;
@@ -48,6 +52,10 @@ header {
 
 .header_nav-lista {
 font-weight: bolder;
+}
+
+.header_nav-lista 
+{ padding: 0;
 }
 
 .header_nav-lista a {
