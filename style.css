@@ -20,7 +20,6 @@ body {
   );
   position: relative;
   min-height: 100vh;
-  padding-bottom: 8em;
 }
 
 /* HEADER  */
@@ -37,8 +36,8 @@ header {
   position: fixed;
 }
 
-.header_nav{
- width: auto;
+.header_nav {
+  width: auto;
 }
 
 .header_nav-logo {
@@ -51,11 +50,11 @@ header {
 }
 
 .header_nav-lista {
-font-weight: bolder;
+  font-weight: bolder;
 }
 
-.header_nav-lista 
-{ padding: 0;
+.header_nav-lista {
+  padding: 0;
 }
 
 .header_nav-lista a {
@@ -66,7 +65,7 @@ font-weight: bolder;
   padding-top: 35%;
   padding-bottom: 35%;
   text-align: center;
-  }
+}
 
 .header_nav-lista li:hover {
   background-color: #18a7a7;
@@ -81,6 +80,7 @@ font-weight: bolder;
 main {
   width: 100%;
   height: 95%;
+  padding-bottom: 5.5rem;
 }
 
 /* MAIN INDEX */
@@ -365,6 +365,11 @@ main {
 .contacto_main_form_mensaje {
   font-style: italic;
   font-weight: bold;
+}
+
+/* MAIN JAZZ */
+.jazz_section{
+  margin-left: 6rem;
 }
 
 /* FOOTER */
