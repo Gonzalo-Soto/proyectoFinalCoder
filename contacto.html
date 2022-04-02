@@ -10,8 +10,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- HOJA DE ESTILOS PERSONALIZADA -->
-        <link rel="stylesheet" href="style.css">
-    </head>
+    <link rel="stylesheet" href="style.css">
+</head>
 
 <body>
     <header>
@@ -49,16 +49,24 @@
     </header>
     <main class="contacto_main">
         <h1 class="contacto_main-titulo">CONTACTO</h1>
-      <div class="div__form">
-            <div class="mb-3 col-3">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <div class="div__form">
+            <div class="mb-3  col-sm-8 col-md-4 col-lg-4" >
+                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Juan">
+            </div>
+            <div class="mb-3  col-sm-8 col-md-4 col-lg-4">
+                <label for="exampleFormControlInput1" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Lopez">
+            </div>
+            <div class="mb-3  col-sm-8 col-md-4 col-lg-4">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-              </div>
-              <div class="mb-4 col-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-              </div>
-      </div>
+            </div>
+            <div class="mb-3  col-sm-8 col-md-4 col-lg-4">
+                <label for="exampleFormControlTextarea1" class="form-label"></label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribinos aqui lo que quieras"></textarea>
+            </div>
+        </div>
         <!-- <form class="contacto_main_form">
             <div><input type="text" name="nombre" placeholder="Nombre"></div>
             <div><input type="text" name="apellido" placeholder="Apellido"></div>
@@ -81,11 +89,7 @@
                             <h6 class="text-uppercase mb-4 font-weight-bold">
                                 JUKEBOX
                             </h6>
-                            <p>
-                                Here you can use rows and columns to organize your footer
-                                content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                                elit.
-                            </p>
+                            <div><img class="div__punio__img" src="images/Logo/punio.jpg" alt="punio"></div>
                         </div>
                         <!-- Grid column -->
 
