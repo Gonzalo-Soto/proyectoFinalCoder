@@ -1,0 +1,35 @@
+/* HEADER  */
+
+.navbar {
+  background: rgb(14, 166, 166);
+  background: linear-gradient(
+    180deg,
+    rgba(14, 166, 166, 1) 0%,
+    rgba(5, 119, 119, 1) 70%,
+    rgba(16, 159, 159, 1) 100%
+  );
+
+  .nav__logo {
+    width: 80px;
+    &:hover {
+      transform: rotate(90deg);
+    }
+  }
+
+  .nav__lista {
+    justify-content: flex-end;
+    color: $color-letramenu;
+    .nav__enlace {
+      font-weight: bolder !important;
+      color: inherit !important; 
+      &:hover {
+        background-color: #18a7a7;
+      }
+    }
+  }
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+{
+  "name": "proyecto-html---bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gonzalo-Soto/proyectoFinalCoder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gonzalo-Soto/proyectoFinalCoder/issues"
+  },
+  "homepage": "https://github.com/Gonzalo-Soto/proyectoFinalCoder#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
