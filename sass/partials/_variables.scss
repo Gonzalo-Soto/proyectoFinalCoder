@@ -1,9 +1,21 @@
-/* VARIABLES */
-
-
 
 /* MAPAS */
 $colores: (
     color-letramenu: rgb(228, 225, 225),
     color-letraparrafo: antiquewhite,
-)
+);
+
+/* MIXIN */
+
+@mixin flex ($display, $flex-direction, $align-items) {
+    display: $display;
+    flex-direction: $flex-direction;
+    align-items: $align-items;
+}
+
+/* EXTEND */
+
+%flex {
+    display: flex;
+    justify-content: center;
+    }
