@@ -15,32 +15,30 @@
   }
   
   @media screen and (max-width: 768px) {
+    /* MAIN INDEX RESPONSIVE */
+
     .main_div2 {
       flex-direction: column;
       align-items: center;
+      
+      .main_div-iframe {
+        padding-bottom: 2em;
+      }
+
+      .main_div-parrafo {
+        margin: auto;
+      }
     }
-  
-    /* MAIN INDEX RESPONSIVE */
-    .main_div-iframe {
-      padding-bottom: 2em;
-    }
-    .main_div-parrafo {
-      margin: auto;
-    }
-  
+    
     /* MAIN GALERIA RESPONSIVE */
     .galeria_main_imagenes {
       display: flex;
       flex-direction: column;
     }
   
-    .galeria_main-titulo {
-      width: 100%;
-    }
-  
     /* MAIN UBICACION RESPONSIVE */
     .ubicacion_main_titulo {
-      width: 100%;
+      margin-bottom: 2rem;
     }
   
     .ubicacion_main_iframe {
@@ -54,12 +52,7 @@
   
     /* MAIN CONTACTO RESPONSIVE */
     .contacto_main-titulo {
-      width: 100%;
-    }
-  
-    /* MAIN JAZZ */
-    .section__carousel {
-      padding-top: 5rem;
+      margin-bottom: 2rem;
     }
   }
   
@@ -72,7 +65,7 @@
   }
   @media screen and (max-width: 490px) {
     .ubicacion_main iframe {
-      width: 22em;
-      height: 25em;
+      width: 22rem;
+      height: 25rem;
     }
   }

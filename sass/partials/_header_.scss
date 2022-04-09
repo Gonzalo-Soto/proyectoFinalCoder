@@ -18,8 +18,8 @@
 
   .nav__lista {
     justify-content: flex-end;
-    color: $color-letramenu;
-    .nav__enlace {
+    color: map-get($colores, color-letramenu);
+    a {
       font-weight: bolder !important;
       color: inherit !important; 
       &:hover {
@@ -27,9 +27,4 @@
       }
     }
   }
-
-
-
-
-
-
+}
