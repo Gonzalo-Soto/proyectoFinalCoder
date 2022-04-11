@@ -16,7 +16,7 @@ main {
   margin-bottom: 6%;
 
   img {
-    width: 17%;
+    width: 20%;
     animation-name: movimiento;
     animation-duration: 2s;
     animation-timing-function: ease;
@@ -48,13 +48,7 @@ main {
       padding: 5%;
       height: 100%;
       box-shadow: 3px 3px 6px 3px rgb(54, 53, 53);
-      background: rgb(14, 166, 166);
-      background: linear-gradient(
-        90deg,
-        rgba(14, 166, 166, 1) 0%,
-        rgba(5, 119, 119, 1) 70%,
-        rgba(16, 159, 159, 1) 100%
-      );
+      background-color: map-get($colores, color-fondoparrafo);
     }
   }
 }
@@ -62,21 +56,16 @@ main {
 /* MAIN INFO */
 
 .info_main-titulo {
-  color: rgba(12, 219, 219, 0.87);
+  background-color: map-get($colores, color-titulos);
   text-align: center;
   padding: 2%;
   margin-bottom: 2.3%;
-  background: rgb(0, 3, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(0, 3, 36, 1) 0%,
-    rgba(14, 166, 166, 1) 70%,
-    rgba(16, 159, 159, 1) 100%
-  );
+  font-weight: bolder;
+  background-color: map-get($colores , color-fondotitulos);
 }
 
 .info_main_container_titulo_1 {
-  color: rgba(12, 219, 219, 0.87);
+  color: map-get($colores, color-titulos);
   box-shadow: 3px 3px 6px 3px rgb(54, 53, 53);
 }
 
@@ -86,13 +75,7 @@ main {
   margin-bottom: 0.5rem;
   padding: 1%;
   color:  map-get($colores, color-letraparrafo);
-  background: rgb(14, 166, 166);
-  background: linear-gradient(
-    90deg,
-    rgba(14, 166, 166, 1) 0%,
-    rgba(5, 119, 119, 1) 70%,
-    rgba(16, 159, 159, 1) 100%
-  );
+  background-color:  map-get($colores, color-fondoparrafo);
   transition: all 0.5s linear;
 
   &:hover {
@@ -107,7 +90,7 @@ main {
 }
 
 .info_main_container_titulo_2 {
-  color: rgba(12, 219, 219, 0.87);
+  color:  map-get($colores, color-letraparrafo);
   box-shadow: 3px 3px 6px 3px rgb(54, 53, 53);
 }
 
@@ -117,13 +100,7 @@ main {
   margin-bottom: 0.5rem;
   padding: 1%;
   color: map-get($colores, color-letraparrafo);
-  background: rgb(14, 166, 166);
-  background: linear-gradient(
-    90deg,
-    rgba(14, 166, 166, 1) 0%,
-    rgba(5, 119, 119, 1) 70%,
-    rgba(16, 159, 159, 1) 100%
-  );
+  background-color:  map-get($colores, color-fondoparrafo);
   transition: all 0.5s linear;
 
   &:hover {
@@ -138,7 +115,7 @@ main {
 }
 
 .info_main_container_titulo_3 {
-  color: rgba(12, 219, 219, 0.87);
+  color:  map-get($colores, color-letraparrafo);
   box-shadow: 3px 3px 6px 3px rgb(54, 53, 53);
 }
 
@@ -147,13 +124,7 @@ main {
   height: 100%;
   padding: 1%;
   color: map-get($colores, color-letraparrafo);
-  background: rgb(14, 166, 166);
-  background: linear-gradient(
-    90deg,
-    rgba(14, 166, 166, 1) 0%,
-    rgba(5, 119, 119, 1) 70%,
-    rgba(16, 159, 159, 1) 100%
-  );
+  background-color:  map-get($colores, color-fondoparrafo);
   transition: all 0.5s linear;
 
   &:hover {
@@ -170,17 +141,13 @@ main {
 /* MAIN GALERIA */
 
 .galeria_main-titulo {
-  color: rgba(12, 219, 219, 0.87);
+  background-color: map-get($colores, color-titulos);
+  font-weight: bolder;
+  background-color: map-get($colores , color-fondotitulos);
   text-align: center;
   padding: 2%;
   margin-bottom: 2.3%;
-  background: rgb(0, 3, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(0, 3, 36, 1) 0%,
-    rgba(14, 166, 166, 1) 70%,
-    rgba(16, 159, 159, 1) 100%
-  );
+  
 }
 
 .galeria_main_imagenes {
@@ -216,24 +183,19 @@ main {
 /* MAIN UBICACION */
 
 .ubicacion_main_titulo {
-  color: rgba(12, 219, 219, 0.87);
+  background-color: map-get($colores, color-titulos);
+  font-weight: bolder;
+  background-color: map-get($colores , color-fondotitulos);
   text-align: center;
   padding: 2%;
   margin-bottom: 2.3%;
-  background: rgb(0, 3, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(0, 3, 36, 1) 0%,
-    rgba(14, 166, 166, 1) 70%,
-    rgba(16, 159, 159, 1) 100%
-  );
 }
 
 .ubicacion_main_lista li {
   @include flex(flex, column, center);
   font-weight: bolder;
   padding: 1%;
-  color: map-get($colores, color-letramenu);
+  color: map-get($colores, color-letraparrafo);
   font-size: larger;
 }
 
@@ -245,23 +207,17 @@ main {
 /* MAIN CONTACTO */
 
 .contacto_main-titulo {
-  color: rgba(12, 219, 219, 0.87);
+  background-color: map-get($colores, color-titulos);
+  font-weight: bolder;
+  background-color: map-get($colores , color-fondotitulos);
   text-align: center;
   padding: 2%;
   margin-bottom: 2.3%;
-  background: rgb(0, 3, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(0, 3, 36, 1) 0%,
-    rgba(14, 166, 166, 1) 70%,
-    rgba(16, 159, 159, 1) 100%
-  );
 }
 
 .div__form {
   @include flex(flex, column, center,);
   min-height: 50vh;
-  font-weight: bolder;
   color: map-get($colores, color-letramenu);
 }
 
