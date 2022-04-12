@@ -17,11 +17,11 @@ $colores: (
     display: $display;
     flex-direction: $flex-direction;
     align-items: $align-items;
-}
+};
 
 /* EXTEND */
 
 %flex {
     display: flex;
     justify-content: center;
-    }
+    };
