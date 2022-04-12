@@ -64,6 +64,7 @@ main {
 }
 
 .info_main_container_titulo_1 {
+  text-align: center;
   color: map-get($colores, color-titulos);
   box-shadow: 3px 3px 6px 3px rgb(54, 53, 53);
 }
@@ -89,6 +90,7 @@ main {
 }
 
 .info_main_container_titulo_2 {
+  text-align: center;
   color:  map-get($colores, color-letraparrafo);
   box-shadow: 3px 3px 6px 3px rgb(54, 53, 53);
 }
@@ -114,6 +116,7 @@ main {
 }
 
 .info_main_container_titulo_3 {
+  text-align: center;
   color:  map-get($colores, color-letraparrafo);
   box-shadow: 3px 3px 6px 3px rgb(54, 53, 53);
 }
