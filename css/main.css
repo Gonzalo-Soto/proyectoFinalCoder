@@ -262,7 +262,7 @@ main {
           transform: scale(1.1, 1.1) rotate(5deg);
 }
 
-/* MAIN PORTADAS */
+/* MAIN CLASICOS-HEAVY-JAZZ-MEDITACION-POP-ROCK */
 .section__carousel {
   padding: 0 !important;
   width: 100%;
@@ -272,6 +272,12 @@ main {
   max-height: 80vh;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+.h1portadas {
+  color: white;
+  font-weight: bolder;
+  text-align: center;
 }
 
 /* MAIN UBICACION */
